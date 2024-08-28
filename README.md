@@ -17,6 +17,12 @@ config folder for DB connection string config
 
 models folder to tell how data should look like
 
+then created controller to add seed data
+
+now aipController
+body-parser is MIDDLEWARE
+
+
 
 
 

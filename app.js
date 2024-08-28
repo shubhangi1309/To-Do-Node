@@ -5,6 +5,7 @@ var mongoose = require("mongoose"); // DB connection
 var config = require("./config");
 
 var setupController = require("./controller/setupController");
+var apiController = require("./controller/apiController");
 
 var port = process.env.PORT || 3000;
 
@@ -19,5 +20,6 @@ app.set("view engine", "ejs");
 //   .catch((err) => console.log(err));
 
 setupController(app);
+apiController(app);
 
 app.listen(port);
