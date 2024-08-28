@@ -5,13 +5,19 @@ npm i ejs --save
 npm i body-parser --save-dev
 will help submitting data as JSON
 
-
-not doing below step  as I don't have DB
 npm i mongoose --save-dev
-interact iwth mongo DB
+interact with mongo DB
 
 create
 .gitignore
+
+mongo DB on mlab.com
+
+config folder for DB connection string config
+
+models folder to tell how data should look like
+
+
 
 
 
